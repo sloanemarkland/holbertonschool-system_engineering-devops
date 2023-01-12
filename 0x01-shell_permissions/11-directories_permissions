@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 003 */
+chmod 003 */
