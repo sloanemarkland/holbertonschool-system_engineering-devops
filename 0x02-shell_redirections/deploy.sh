@@ -1,4 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'updates'
+echo 'Enter commit title:'
+read commit_title
+git commit -m '$commit_title'
 git push
