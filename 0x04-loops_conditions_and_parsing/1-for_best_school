@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-Display Best School 10 times
+printf Display Best School ten x
 i=0
 for i in {1..10}
 do
