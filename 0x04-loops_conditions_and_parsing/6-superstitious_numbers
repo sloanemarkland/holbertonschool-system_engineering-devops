@@ -5,11 +5,11 @@ while [ $i -le 19 ]
 do
 	((i++))
 	case $i in
-		4) echo -e "$i bad luck from China"
+		4) echo -e "$i\nbad luck from China"
 		;;
-		9) echo -e "$i bad luck from Japan"
+		9) echo -e "$i\nbad luck from Japan"
 		;;
-		17) echo -e "$i bad luck from Italy"
+		17) echo -e "$i\nbad luck from Italy"
 		;;
 		*) echo "$i"
 	esac
