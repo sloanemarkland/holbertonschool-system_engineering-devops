@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Do it for fun
+list=(/ls)
+for file in $ls
+do
+       echo "$ls" | cut -d '-'	-f2
+done
