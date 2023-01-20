@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#I know what time it is
+h=0
+m=1
+while [ $h -le 12 ]
+do
+	printf "%s\n" "Hour: $h"
+	while [ $m -le 59 ] 
+	do
+		printf "%s\n" "$m"
+		((m++))
+	done
+	((m = 1)) 
+	((h++))
+done
