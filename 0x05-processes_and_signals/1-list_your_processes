@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #list your processes, show your work!
-ps -Af
+ps -fu
