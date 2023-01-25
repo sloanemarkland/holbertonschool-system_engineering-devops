@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#If 9 Say Hi
+i=1
+while [ $i -le 10 ]
+do
+printf '%s\n' "Best School"
+if [ $i == 9 ]
+then
+	echo "Hi"
+fi
+((i++))
+done
+

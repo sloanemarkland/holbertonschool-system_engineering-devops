@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#get me outta here
+pkill -f 7-highlander

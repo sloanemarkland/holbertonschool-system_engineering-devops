@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#that is the question
+i=./school
+if test -e "$i"; then 
+	echo school file exists
+	if test -f "$i"; then
+		echo school is a regular file
+		if test -s "$i"; then
+			echo school file is not empty
+		else
+			echo school file is empty
+		fi
+	else 
+		echo school file is not empty
+	fi			
+else 
+	echo school file does not exist
+fi 
